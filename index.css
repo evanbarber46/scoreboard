@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    background-color: #1b244a;
+    color: #eeeeee;
+    font-family: Verdana;
+}
+
+@font-face {
+    font-family: 'timerfont.ttf';
+    src: url("timerfont.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.container {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#homescore {
+    color: #f94f6d;
+    background-color: #080001;
+    padding: 8px 16px;
+    font-family: 'timerfont.ttf';
+}
+
+#guestscore {
+    color: #f94f6d;
+    background-color: #080001;
+    padding: 8px 16px;
+    font-family: 'timerfont.ttf';
+}
+
+.scorebutton {
+    border-color: #9aabd8;
+    color: #9aabd8;
+    border-radius: 5px;
+    padding: 5px 5px;
+    background-color: transparent;
+    font-family: 'timerfont.ttf';
+}
